@@ -3,11 +3,18 @@ package main
 import (
 	"fmt"
 
-	"github.com/masaokaka/go-sample/a"
+	"github.com/GoesToEleven/puppy"
 )
 
+var x = 1
+
+const y = 2
+
 func main() {
-	fmt.Println("Hello")
-	a.DoC(a.B)
-	fmt.Println("this is version 1.0.1")
+	z := 3
+	fmt.Println(x, y, z)
+
+	fmt.Println(puppy.Bark(), puppy.BigBark())
+	puppy.From13()
+
 }
